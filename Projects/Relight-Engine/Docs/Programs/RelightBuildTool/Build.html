@@ -40,6 +40,11 @@
 <p>All dependencies within this array will be used, these dependencies are from the runtime and can only import code from the /Private directory. Once imported, they can be included in your C++ project as if they are in the same directory</p>
 
 <div id="Code">
+    <p>ThirdPartyDepend = [String Array]</p>
+    </div>
+    <p>Build and link 3rd party applications</p>
+
+<div id="Code">
     <p>PrecompileUnix = String</p>
 </div>
 <p>If compiling on unix, and a precompiled build is already created, copy that file and paste it's contents into the temp directory for the target to compile. This is especially useful for Third Party software, as those can easily be used and doesn't require constant updates unless needed. The string points to the directory within the source code that contains the precompiled build</p>
